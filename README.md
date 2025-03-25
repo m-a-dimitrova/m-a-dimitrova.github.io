@@ -8,12 +8,12 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #1a1a2e;
+            background-color: #1a1a3e;
             color: white;
             text-align: center;
         }
         header {
-            background-color: #16213e;
+            background-color: #16123e;
             padding: 20px;
             font-size: 24px;
             font-weight: bold;
@@ -22,11 +22,11 @@
             max-width: 800px;
             margin: 20px auto;
             padding: 20px;
-            background: rgba(255, 255, 255, 0.1);
+            background: rgba(255, 255, 255, 0.6);
             border-radius: 10px;
         }
         footer {
-            background-color: #0f3460;
+            background-color: #0f3430;
             padding: 10px;
             margin-top: 20px;
         }
