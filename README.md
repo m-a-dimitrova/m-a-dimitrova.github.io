@@ -35,9 +35,9 @@
 <body>
     <header>The Heart of Elarion</header>
     <div class="content">
-        <h2>Welcome to the world of Elarion</h2>
+        <h2>Chapter one : </h2>
         <p>A legendary journey awaits...</p>
     </div>
-    <footer>© 2025 Your Name</footer>
+    <footer>© 2025 M Dimitrova</footer>
 </body>
 </html>
