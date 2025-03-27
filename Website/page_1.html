@@ -6,37 +6,68 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <style>
-		body {
-			background-image: url('backgrounds/page1b.png'); 
-			background-size: cover;
-			background-position: center;
-			color: #ffffff; 
-			padding: 20px;
-		}
+        @import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@300;700&display=swap');
 
-		.container {
-			background-color: rgba(0, 0, 0, 0.5); 
-			padding: 20px;
-			border-radius: 10px; 
-		}
+        body {
+            background-image: url('backgrounds/page1b.png'); 
+            background-size: cover;
+            background-position: center;
+            color: #e6c27a; /* Soft golden text */
+            padding: 20px;
+            font-family: 'Crimson Pro', serif;
+        }
 
-		.character-image {
-			max-width: 100%;
-			height: auto;
-			border-radius: 50%; 
-			margin: 10px;
-		}
+        .container {
+            background: rgba(20, 10, 5, 0.8); /* Deep dark background for readability */
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0px 0px 20px rgba(255, 200, 100, 0.3);
+            border: 2px solid #b08d57;
+        }
 
-		.story-text {
-			font-size: 18px;
-			line-height: 1.6;
-		}
-		
-		.navigation-arrow {
+        h1 {
+            text-align: center;
+            font-size: 42px;
+            font-weight: 700;
+            text-shadow: 2px 2px 5px rgba(255, 200, 100, 0.5);
+        }
+
+        h3 {
+            margin-top: 10px;
             font-size: 24px;
-            color: #ffffff; 
+            color: #c4a96b;
+            text-shadow: 1px 1px 4px rgba(255, 200, 100, 0.3);
+        }
+
+        .character-image {
+            max-width: 100%;
+            height: auto;
+            border-radius: 50%; 
+            margin: 10px;
+            border: 3px solid #d4af37; /* Gold border */
+            box-shadow: 0px 0px 15px rgba(255, 215, 0, 0.5);
+        }
+
+        .story-text {
+            font-size: 20px;
+            line-height: 1.8;
+            text-align: justify;
+            text-shadow: 1px 1px 5px rgba(255, 200, 100, 0.3);
+        }
+
+        .navigation-arrow {
+            font-size: 32px;
+            color: #ffdd99; /* Soft glowing gold */
             margin-top: 20px;
             cursor: pointer;
+            transition: transform 0.3s ease-in-out;
+            text-decoration: none;
+        }
+
+        .navigation-arrow:hover {
+            transform: scale(1.2);
+            color: #ffcc66;
+            text-shadow: 0px 0px 10px rgba(255, 200, 100, 0.7);
         }
     </style>
     <title>The Heart of Elarion</title>
@@ -44,17 +75,17 @@
 
 <body>
     <div class="container">
-        <h1 class="text-center">The Heart of Elarion</h1>
-        <div class="row">
-            <div class="col-md-4 text-center">
+        <h1>The Heart of Elarion</h1>
+        <div class="row text-center">
+            <div class="col-md-4">
                 <img src="Kaelen/kaelenstormrider1.png" alt="Kaelen Stormrider" class="character-image">
                 <h3>Kaelen Stormrider</h3>
             </div>
-            <div class="col-md-4 text-center">
+            <div class="col-md-4">
                 <img src="Lysara/Lysara_1.png" alt="Lysara Moonwhisper" class="character-image">
                 <h3>Lysara Moonwhisper</h3>
             </div>
-            <div class="col-md-4 text-center">
+            <div class="col-md-4">
                 <img src="Malakar/Lord_Malakar_1.png" alt="Lord Malakar" class="character-image">
                 <h3>Lord Malakar</h3>
             </div>
