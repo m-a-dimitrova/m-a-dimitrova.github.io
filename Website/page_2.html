@@ -6,37 +6,71 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <style>
-		body {
-			background-image: url('backgrounds/page2b.png'); 
-			background-size: cover;
-			background-position: center;
-			color: #ffffff; 
-			padding: 20px;
-		}
+        @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;700&display=swap');
 
-		.container {
-			background-color: rgba(0, 0, 0, 0.5); 
-			padding: 20px;
-			border-radius: 10px; 
-		}
+        body {
+            background-image: url('backgrounds/page2b.png'); 
+            background-size: cover;
+            background-position: center;
+            color: #d0d0d0; /* Soft silver for readability */
+            padding: 20px;
+            font-family: 'EB Garamond', serif;
+        }
 
-		.character-image {
-			max-width: 100%;
-			height: auto;
-			border-radius: 50%; 
-			margin: 10px;
-		}
+        .container {
+            background: rgba(20, 20, 30, 0.85); /* Darker bluish tint */
+            padding: 30px;
+            border-radius: 12px; 
+            box-shadow: 0px 0px 15px rgba(180, 180, 255, 0.15);
+            border: 2px solid rgba(200, 200, 255, 0.2);
+        }
 
-		.story-text {
-			font-size: 18px;
-			line-height: 1.6;
-		}
-		
-		.navigation-arrow {
+        h1 {
+            text-align: center;
+            font-size: 42px;
+            font-weight: 700;
+            color: #c2c2ff; /* Mystical silver-blue */
+            text-shadow: 2px 2px 6px rgba(200, 200, 255, 0.4);
+        }
+
+        h3 {
+            margin-top: 10px;
             font-size: 24px;
-            color: #ffffff; 
+            color: #d2d2ff;
+            text-shadow: 1px 1px 4px rgba(200, 200, 255, 0.3);
+        }
+
+        .character-image {
+            max-width: 100%;
+            height: auto;
+            border-radius: 50%; 
+            margin: 10px;
+            border: 3px solid rgba(200, 200, 255, 0.3);
+            box-shadow: 0px 0px 10px rgba(220, 220, 255, 0.3);
+        }
+
+        .story-text {
+            font-size: 19px;
+            line-height: 1.8;
+            text-align: justify;
+            color: #d2d2d2;
+            text-shadow: 1px 1px 4px rgba(180, 180, 180, 0.2);
+        }
+
+        .navigation-arrow {
+            font-size: 32px;
+            color: #9ecbff; /* Cool icy blue */
             margin-top: 20px;
             cursor: pointer;
+            transition: transform 0.3s ease-in-out;
+            text-decoration: none;
+            text-shadow: 0px 0px 10px rgba(160, 210, 255, 0.6);
+        }
+
+        .navigation-arrow:hover {
+            transform: scale(1.2);
+            color: #b3ddff;
+            text-shadow: 0px 0px 12px rgba(180, 220, 255, 0.9);
         }
     </style>
     <title>The Heart of Elarion</title>
@@ -44,17 +78,17 @@
 
 <body>
     <div class="container">
-        <h1 class="text-center">The Heart of Elarion</h1>
-        <div class="row">
-            <div class="col-md-4 text-center">
+        <h1>The Heart of Elarion</h1>
+        <div class="row text-center">
+            <div class="col-md-4">
                 <img src="Kaelen/kaelenstormrider2.png" alt="Kaelen Stormrider" class="character-image">
                 <h3>Kaelen Stormrider</h3>
             </div>
-            <div class="col-md-4 text-center">
+            <div class="col-md-4">
                 <img src="Lysara/Lysara_2.png" alt="Lysara Moonwhisper" class="character-image">
                 <h3>Lysara Moonwhisper</h3>
             </div>
-            <div class="col-md-4 text-center">
+            <div class="col-md-4">
                 <img src="Malakar/Lord_Malakar_2.png" alt="Lord Malakar" class="character-image">
                 <h3>Lord Malakar</h3>
             </div>
